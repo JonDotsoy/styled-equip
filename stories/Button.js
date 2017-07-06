@@ -15,6 +15,8 @@ storiesOf('Button', module)
     .add('all', () => (
         <D>
             <p>
+                <h1>Buttons Large</h1>
+
                 <Button size='large' type='default'>A button</Button>
                 <Button size='large' type='primary'>A primary button</Button>
                 <Button size='large' type='success'>A success button</Button>
@@ -23,7 +25,7 @@ storiesOf('Button', module)
                 <Button size='large' type='danger'>A danger button</Button>
                 <Button size='large' type='link'>A link button</Button>
 
-                <h1>Hover</h1>
+                <h2>Hover</h2>
 
                 <Button size='large' type='default' className="hover">A button</Button>
                 <Button size='large' type='primary' className="hover">A primary button</Button>
@@ -33,7 +35,7 @@ storiesOf('Button', module)
                 <Button size='large' type='danger' className="hover">A danger button</Button>
                 <Button size='large' type='link' className="hover">A link button</Button>
 
-                <h1>Focus</h1>
+                <h2>Focus</h2>
 
                 <Button size='large' type='default' className="focus">A button</Button>
                 <Button size='large' type='primary' className="focus">A primary button</Button>
@@ -43,7 +45,7 @@ storiesOf('Button', module)
                 <Button size='large' type='danger' className="focus">A danger button</Button>
                 <Button size='large' type='link' className="focus">A link button</Button>
 
-                <h1>Disabled</h1>
+                <h2>Disabled</h2>
 
                 <Button size='large' type='default' disabled>A button</Button>
                 <Button size='large' type='primary' disabled>A primary button</Button>
@@ -55,6 +57,8 @@ storiesOf('Button', module)
 
             </p>
             <p>
+                <h1>Buttons Normal</h1>
+
                 <Button type='default'>A button</Button>
                 <Button type='primary'>A primary button</Button>
                 <Button type='success'>A success button</Button>
@@ -64,7 +68,7 @@ storiesOf('Button', module)
                 <Button type='link'>A link button</Button>
 
 
-                <h1>Hover</h1>
+                <h2>Hover</h2>
 
                 <Button type='default' className="hover">A button</Button>
                 <Button type='primary' className="hover">A primary button</Button>
@@ -74,7 +78,7 @@ storiesOf('Button', module)
                 <Button type='danger' className="hover">A danger button</Button>
                 <Button type='link' className="hover">A link button</Button>
 
-                <h1>Focus</h1>
+                <h2>Focus</h2>
 
                 <Button type='default' className="focus">A button</Button>
                 <Button type='primary' className="focus">A primary button</Button>
@@ -84,7 +88,7 @@ storiesOf('Button', module)
                 <Button type='danger' className="focus">A danger button</Button>
                 <Button type='link' className="focus">A link button</Button>
 
-                <h1>Disabled</h1>
+                <h2>Disabled</h2>
 
                 <Button type='default' disabled>A button</Button>
                 <Button type='primary' disabled>A primary button</Button>
@@ -95,6 +99,8 @@ storiesOf('Button', module)
                 <Button type='link' disabled>A link button</Button>
             </p>
             <p>
+                <h1>Buttons Small</h1>
+
                 <Button size='small' type='default'>A button</Button>
                 <Button size='small' type='primary'>A primary button</Button>
                 <Button size='small' type='success'>A success button</Button>
@@ -103,7 +109,7 @@ storiesOf('Button', module)
                 <Button size='small' type='danger'>A danger button</Button>
                 <Button size='small' type='link'>A link button</Button>
 
-                <h1>Hover</h1>
+                <h2>Hover</h2>
 
                 <Button size='small' type='default' className="hover">A button</Button>
                 <Button size='small' type='primary' className="hover">A primary button</Button>
@@ -113,7 +119,7 @@ storiesOf('Button', module)
                 <Button size='small' type='danger' className="hover">A danger button</Button>
                 <Button size='small' type='link' className="hover">A link button</Button>
 
-                <h1>Focus</h1>
+                <h2>Focus</h2>
 
                 <Button size='small' type='default' className="focus">A button</Button>
                 <Button size='small' type='primary' className="focus">A primary button</Button>
@@ -123,7 +129,7 @@ storiesOf('Button', module)
                 <Button size='small' type='danger' className="focus">A danger button</Button>
                 <Button size='small' type='link' className="focus">A link button</Button>
 
-                <h1>Disabled</h1>
+                <h2>Disabled</h2>
 
                 <Button size='small' type='default' disabled>A button</Button>
                 <Button size='small' type='primary' disabled>A primary button</Button>
@@ -134,6 +140,8 @@ storiesOf('Button', module)
                 <Button size='small' type='link' disabled>A link button</Button>
             </p>
             <p>
+                <h1>Buttons Extra Small</h1>
+
                 <Button size='extra-small' type='default'>A button</Button>
                 <Button size='extra-small' type='primary'>A primary button</Button>
                 <Button size='extra-small' type='success'>A success button</Button>
@@ -142,7 +150,7 @@ storiesOf('Button', module)
                 <Button size='extra-small' type='danger'>A danger button</Button>
                 <Button size='extra-small' type='link'>A link button</Button>
 
-                <h1>Hover</h1>
+                <h2>Hover</h2>
 
                 <Button size='extra-small' type='default' className="hover">A button</Button>
                 <Button size='extra-small' type='primary' className="hover">A primary button</Button>
@@ -152,7 +160,7 @@ storiesOf('Button', module)
                 <Button size='extra-small' type='danger' className="hover">A danger button</Button>
                 <Button size='extra-small' type='link' className="hover">A link button</Button>
 
-                <h1>Focus</h1>
+                <h2>Focus</h2>
 
                 <Button size='extra-small' type='default' className="focus">A button</Button>
                 <Button size='extra-small' type='primary' className="focus">A primary button</Button>
@@ -162,7 +170,7 @@ storiesOf('Button', module)
                 <Button size='extra-small' type='danger' className="focus">A danger button</Button>
                 <Button size='extra-small' type='link' className="focus">A link button</Button>
 
-                <h1>Disabled</h1>
+                <h2>Disabled</h2>
 
                 <Button size='extra-small' type='default' disabled>A button</Button>
                 <Button size='extra-small' type='primary' disabled>A primary button</Button>
