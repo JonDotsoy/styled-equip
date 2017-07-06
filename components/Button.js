@@ -17,23 +17,40 @@ const ButtonStyle = css`
     border-radius: 20px;
     padding-left: 24px;
     padding-right: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 26px;
+    border-radius: 13px;
 `
 
 const ButtonSizeStyle = ({size}) => {
     switch (size) {
         case 'lg':
-        case 'large': return css``
+        case 'large': return css`
+            padding-left: 26px;
+            padding-right: 26px;
+            height: 40px;
+            border-radius: 20px;
+        `
         case 'sm':
-        case 'small': return css``
+        case 'small': return css`
+            padding-left: 14px;
+            padding-right: 14px;
+            height: 20px;
+            font-size: 12px;
+            border-radius: 10px;
+        `
         case 'xs':
         case 'extra small':
-        case 'extra-small': return css``
+        case 'extra-small': return css`
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 16px;
+            font-size: 10px;
+            border-radius: 10px;
+        `
         // 'medium'
         default: return css`
-        padding-left: 18px;
-        padding-right: 18px;
-        height: 26px;
-        border-radius: 13px;
         `
     }
 }
