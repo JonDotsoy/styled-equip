@@ -41,7 +41,8 @@ const TextLabel = styled.span`
 `
 
 const Container = styled.div`
-    width: 250px;
+    display: block;
+    width: 100%;
 `
 
 const ContIcon = styled.span`
