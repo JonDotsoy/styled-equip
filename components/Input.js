@@ -1,5 +1,6 @@
 import React from 'react'
 import uniqueId from 'lodash/uniqueId'
+import toLower from 'lodash/toLower'
 import styled, {css} from 'styled-components'
 import {TitilliumWeb} from './FontFamily'
 import * as c from '../libs/colors'
@@ -45,7 +46,7 @@ const Container = styled.div`
     width: 100%;
 `
 
-const ContIcon = styled.span`
+const ContainerIcon = styled.span`
     display: inline-block;
     height: 28px;
     box-sizing: border-box;
@@ -58,12 +59,12 @@ const ContIcon = styled.span`
     }
 `
 
-export const Input = ({label, icon, ...props}) => (
-    <Container>
+export const InputBase = ({label, icon, ...props}) => (
+    <Container className={props.className}>
         {label && (
             <div>
                 <LabelComponent htmlFor={props.id} disabled={props.disabled}>
-                    {icon && (<ContIcon>{icon}</ContIcon>)}
+                    {icon && (<ContainerIcon>{icon}</ContainerIcon>)}
                     <TextLabel>{label}</TextLabel>
                 </LabelComponent>
             </div>
@@ -71,3 +72,7 @@ export const Input = ({label, icon, ...props}) => (
         <InputComponent {...props}/>
     </Container>
 )
+
+export const Input = styled(InputBase).attrs({
+    priority: prop => toLower(prop.priority) || 'active',
+})``

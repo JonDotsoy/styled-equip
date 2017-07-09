@@ -60,8 +60,8 @@ const ButtonSizeStyle = ({size}) => {
     }
 }
 
-const ButtonTypeStyle = ({type}) => {
-    switch (type) {
+const ButtonTypeStyle = ({priority}) => {
+    switch (priority) {
         case 'primary': return css`
             color: ${c.WHITE};
             border-color: ${c.BLUE};
@@ -151,5 +151,5 @@ const ButtonTypeStyle = ({type}) => {
 
 export const Button = styled.button.attrs({
     size: prop => toLower(prop.size) || 'medium',
-    type: prop => toLower(prop.type) || 'active',
+    priority: prop => toLower(prop.priority) || 'active',
 })`${ButtonStyle}${ButtonSizeStyle}${ButtonTypeStyle}`
