@@ -76,3 +76,5 @@ export const InputBase = ({label, icon, ...props}) => (
 export const Input = styled(InputBase).attrs({
     priority: prop => toLower(prop.priority) || 'active',
 })``
+
+Input.displayName = "Input"
