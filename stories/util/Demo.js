@@ -15,7 +15,7 @@ const PrintDemo = styled.code`
 
 export const Demo = ({children, title, code}) => (
     <div>
-        <SyntaxHighlighter language='javascript' style={docco}>{ReactElementToString(children)}</SyntaxHighlighter>
         {children}
+        <SyntaxHighlighter language='javascript' style={docco}>{ReactElementToString(children)}</SyntaxHighlighter>
     </div>
 )

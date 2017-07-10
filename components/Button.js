@@ -153,3 +153,5 @@ export const Button = styled.button.attrs({
     size: prop => toLower(prop.size) || 'medium',
     priority: prop => toLower(prop.priority) || 'active',
 })`${ButtonStyle}${ButtonSizeStyle}${ButtonTypeStyle}`
+
+Button.displayName = "Button"

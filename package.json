@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "start-storybook -p 9000 -c .storybook",
-    "build": "build-storybook -c .storybook -o docs"
+    "build": "build-storybook -c .storybook -o docs/demo"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "lodash": "^4.17.4",
     "preact": "^8.1.0",
     "react": "^15.6.1",
+    "react-component-demo": "^0.1.0",
     "react-dom": "^15.6.1",
     "react-element-to-string": "^1.0.2",
     "react-icons": "^2.2.5",
